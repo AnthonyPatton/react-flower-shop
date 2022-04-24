@@ -1,0 +1,70 @@
+.flowerContainer {
+  /* width: 100vw; */
+  min-height: 100vh;
+  padding: 5rem calc((100vw - 1300px) / 2);
+  background: url("../images/roses.jpg") center center;
+  color: #fff;
+}
+
+.flowerWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.flowerCard {
+  margin: 0 2rem;
+  line-height: 2;
+  width: 300px;
+}
+.flowerImg {
+  height: 200px;
+  box-shadow: 5px 3px #cea903;
+  width: auto;
+  margin-left: 5rem;
+}
+
+.flowerHeading {
+  font-size: clamp(2rem, 2.5vw, 3rem);
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.protTitle {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.flowerInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.flowerDesc {
+  margin-bottom: 1rem;
+}
+
+.flowerPrice {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-top: auto;
+}
+
+.flowerBtn {
+  font-size: 1rem;
+  padding: 1rem 4rem;
+  border: none;
+  background: cornflowerblue;
+  color: #fff;
+  transition: 0.2 ease-out;
+}
+.flowerBtn:hover {
+  background: #5203c3;
+
+  transition: 0.2s ease-out;
+  cursor: pointer;
+}
